@@ -1,0 +1,177 @@
+body {
+    padding-top: 56px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.jumbotron {
+    background-image: url(animal.jpeg); 
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(0, 0, 0); 
+    height: 600px; 
+}
+.social-cat-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #00a2ff;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #194569;
+            border-radius: 8px;
+            transition: background-color 0.5s ease;
+            width: 100%;
+            max-width: 400px; 
+            margin-bottom: 20px; 
+        }
+.social-media a {
+    margin: 15px 0;
+}
+.social-media img {
+    width: 40px; 
+    height: 40px;
+    margin-right: 15px;
+}
+.cat-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.custom-container {
+    padding: 20px;
+}
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    border: 1px solid #dd3c3c;
+    border-radius: 10px;
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.description {
+    margin-top: 20px;
+    text-align: center;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.whatsapp-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #2f2d2b;
+    color: white;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo img {
+    width: 125px;
+}
+
+.footer-title {
+    margin-top: 10px;
+}
+
+.footer-title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-title p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-contact {
+    flex: 1;
+}
+
+.footer-contact h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-contact ul li i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222120;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    display: block;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact, .footer-logo {
+        text-align: center;
+    }
+
+    .footer-contact ul {
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .footer-social-media {
+        margin-top: 10px;
+    }
+}

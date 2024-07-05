@@ -1,0 +1,161 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo-small {
+    width: 160px; 
+    height: auto;
+}
+
+/* Carousel */
+.carousel-item img {
+    object-fit: cover;
+    height: auto;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Container*/
+.container-fluid {
+    background-color: #b7d0e1;
+}
+.container-fluid.bg-light {
+    padding: 50px 20px;
+}
+
+.container-fluid.bg-light h1 {
+    font-size: 2.5rem;
+}
+
+.container-fluid.bg-light p {
+    font-size: 1.25rem;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+        background-color: rgba(221, 212, 212, 0.199);
+        padding: 25px;
+        border-radius: 50%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon :hover {
+        background-color: rgba(122, 119, 119, 0.5);
+}
+
+.text-center img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px; 
+}
+.card {
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+  
+.card-text {
+    margin-top: auto;
+}
+  
+.card .btn {
+    margin-top: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card2 {
+    height: 100%;
+    padding: 20px;
+    border-style: dashed;
+}
+.text-center img {
+    margin-bottom: 15px;
+  }
+.text-center h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.text-center p {
+   font-size: 1rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222120;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    display: block;
+    margin-top: 5px;
+}
+
+.header img {
+    width: 25%; 
+    margin-bottom: 1rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.header p {
+    font-size: 1rem;
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.full-width-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+
+/* Responsive*/
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .carousel-item img {
+        height: 300px; 
+    }
+
+    .container-fluid.bg-light h1 {
+        font-size: 2rem;
+    }
+
+    .container-fluid.bg-light p {
+        font-size: 1rem;
+    }
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222120;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    display: block;
+    margin-top:5px;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form.formBooking{
+    width: 80%;
+    margin: 20px auto;
+    background-color:  #d1dce4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-style: dashed;
+}
+.card {
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+} 
+
+td,tr {
+    border: 1px solid black; 
+    text-align:left;
+    padding: 1rem;
+    vertical-align: top;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+td:hover{
+    background-image: linear-gradient(#c9cccf, #4f88b3);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222120;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    display: block;
+    margin-top: 5px;
+}

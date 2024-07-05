@@ -1,0 +1,124 @@
+body {
+    background-color: #FDFDFD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('catndog.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    text-align: center; 
+    color: white;
+    padding-top: 10px; 
+  }
+  
+  .header img {
+    order: 2; 
+    max-width: 100px; 
+  }
+  
+  .header h1 {
+    order: 1; 
+    margin: 0;
+    color: black;
+  }
+
+.container .input-group .form-control {
+    border-radius: 0;
+}
+
+.container .input-group .btn {
+    border-radius: 0;
+    background-color: #333; 
+    color: #FFF; 
+}
+
+.category img {
+    height: 150px;
+    width: auto; 
+    margin-bottom: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .category img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  }
+
+  .category p {
+    font-size: 1.2em; 
+    color: #333; 
+    margin-top: 5px; 
+    font-weight: bold; 
+  }
+  .product-gallery img {
+    width: 120px; 
+    margin-bottom: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .product-gallery img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+  }
+
+  .product-gallery p {
+    font-size: 1.1em; 
+    color: #555; 
+    margin-top: 5px;
+    font-weight: 600;
+  }
+
+  .category, .product-gallery {
+    margin-bottom: 30px; 
+    text-align: center; 
+  }
+
+.product-gallery img {
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+.product-gallery p {
+    font-size: 1em;
+    color: #333;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th {
+  background-color: #B7D0E1;
+  color: white;
+}
+
+.table td, .table th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Footer*/
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222120;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    display: block;
+    margin-top: 5px;
+}
